@@ -1,0 +1,13 @@
+1. 수정 및 삭제 API에서 Resource를 구분하기 위해서 어떤 방식으로 요청(Request) 하셨나요? (`param`, `query`, `body`)
+
+
+2. 대표적인 HTTP Method의 4가지( `GET`, `POST`, `PUT`, `DELETE` )는 각각 어떤 상황에서 사용하였나요?
+
+
+3. API 설계 시 RESTful한 원칙을 따랐나요? 어떤 부분이 RESTful한 설계를 반영하였고, 어떤 부분이 그렇지 않았나요?
+
+
+4. 폴더 구조(Directory Structure)를 역할별로 분리하였다면, 어떤 이점을 가져다 주었을까요?
+
+
+5. `mongoose`에서 상품 상태는 어떠한 방식으로 관리하였나요? 이 외에도 어떤 방법들이 있었을까요?
