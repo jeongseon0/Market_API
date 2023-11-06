@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
-const MONGO_DB_PATH = require('.env');
 
 
 const connect = () => {
-  mongoose.connect(MONGO_DB_PATH, {dbName:"node_lv1"})
+  mongoose.connect('mongodb://127.0.0.1:27017/sun_market', {dbName:"node_lv1"})
   .then(() => console.log("MongoDB Connection Success"))
   .catch(error => console.log("MongoDB Connection Error", error));
 };
