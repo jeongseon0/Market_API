@@ -67,7 +67,7 @@ router.get("/product/:productId", async (req, res) => {
 });
 
 // 상품 수정
-router.put("/product/:_id", async (req, res) => {
+router.put("/product/:productId", async (req, res) => {
   try {
     if (!req.body || !req.params) {
       // 유효성검사 꼼꼼하게 수정
@@ -103,7 +103,7 @@ router.put("/product/:_id", async (req, res) => {
 });
 
 // 상품 삭제
-router.delete("/product/:_id", async (req, res) => {
+router.delete("/product/:productId", async (req, res) => {
   try {
     if (!req.body || !req.params) {
       // 유효성검사 꼼꼼하게 수정
